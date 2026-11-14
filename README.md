@@ -4,6 +4,8 @@ A local English text-to-singing studio built with React and Bun. Write lyrics, c
 
 Chorus provides **LIEE neural singing** through a downloaded DiffSinger voicebank, plus three lightweight **classic synthetic voices**. Audio generation runs on your computer. The browser plays the finished file using an HTML audio element; it does not use browser speech synthesis, Web Audio, or microphone access.
 
+Before installing or using LIEE, read [Voice model rights](VOICE_MODEL_RIGHTS.md) and the [creator’s current terms](https://docs.google.com/document/d/1t13WKc7VA2Q3G_MppznbAwhl3vLIL2MNPyjVN3kWDDg/edit). Credit published vocals as **LIEE**. Hosting requires prior permission; model monetization, training, and generative AI uses are restricted. Permission for an unclear neural workflow must be clarified with the creator. Use `./install.sh --classic-only` if permission for your intended LIEE use has not been established.
+
 ## Quick start
 
 On Debian or Ubuntu, run from the project directory as your normal user:
@@ -131,7 +133,7 @@ Temporary rendering files are removed after each request. Downloaded models, ext
 
 The **Chorus application code and documentation are licensed under the [MIT License](LICENSE)**. This does not relicense the downloaded voicebank, vocoder, tools, or other dependencies.
 
-**LIEE : Immortal Idol ‘Lilia’ — JubiLIEE 2025 1.1** is provided by **julieraptor**. Its original archive and terms are preserved locally. Review the author’s terms before publishing or distributing work using the voice. The bundled singing vocoder is provided by **OpenVPI / the DiffSinger Community** under **CC BY-NC-SA 4.0**, with its original notice preserved in the voicebank’s `dsvocoder/NOTICE.txt`. Third-party components retain their respective licenses.
+**LIEE : Immortal Idol ‘Lilia’ — JubiLIEE 2025 1.1** is provided by **julieraptor**. Its original archive and included notices are preserved locally; the linked online terms may be newer. The [voice model rights notice](VOICE_MODEL_RIGHTS.md) explains credit requirements, hosting permissions, prohibited uses, and the unresolved scope of the generative AI restriction. Review the current terms before use or publication. The bundled singing vocoder is provided by **OpenVPI / the DiffSinger Community** under **CC BY-NC-SA 4.0**, with its original notice preserved in the voicebank’s `dsvocoder/NOTICE.txt`. Third-party components retain their respective licenses.
 
 - [Pinned voicebank release](https://github.com/julieraptor/DIFFSINGER-LIEE-Immortal-Idol/releases/tag/MM2.8)
 - [Published archive checksum](https://github.com/julieraptor/DIFFSINGER-LIEE-Immortal-Idol/releases/expanded_assets/MM2.8)

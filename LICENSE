@@ -1,4 +1,21 @@
-MIT License
+Licensing scope
+===============
+
+The MIT License below applies only to original Chorus application code and
+documentation. It does not license third-party voicebanks, model weights,
+vocoders, datasets, character designs, artwork, tools, or dependencies, whether
+downloaded separately or included in a distribution.
+
+In particular, LIEE by julieraptor is subject to the creator's separate Terms
+of Use, and the bundled OpenVPI / DiffSinger Community vocoder weights are
+subject to CC BY-NC-SA 4.0. See VOICE_MODEL_RIGHTS.md for sources, attribution,
+usage restrictions, and distribution requirements. No permission to host,
+monetize, train on, or otherwise use those materials is granted by Chorus.
+Generated audio is not automatically licensed under MIT; applicable voice
+terms and other third-party rights must be respected.
+
+MIT License (Chorus application code and documentation only)
+==========================================================
 
 Copyright (c) 2026 Chorus contributors
 

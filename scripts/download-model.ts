@@ -28,6 +28,7 @@ export async function downloadModel(directory = modelDirectory): Promise<void> {
   const archive = join(directory, 'voicebank.zip');
   const partial = `${archive}.partial`;
   console.log(`Model: ${MODEL.name}\nAuthor: ${MODEL.author}\nRelease: ${MODEL.release}\nTerms of use: ${MODEL.terms}`);
+  console.log('LIEE is not MIT-licensed. Read VOICE_MODEL_RIGHTS.md and the current creator terms before use. Credit published vocals as LIEE. Hosting requires prior permission; model monetization, training, and generative AI uses are restricted.');
   console.log('This downloads the singing voicebank only; it does not install a rendering engine.');
   if (await Bun.file(archive).exists()) {
     await verifyArchive(archive);
