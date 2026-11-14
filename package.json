@@ -1,0 +1,27 @@
+{
+  "name": "vocaloid",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "start": "bun index.ts",
+    "build": "bun build src/index.html --outdir dist --minify",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "model:download": "bun scripts/download-model.ts",
+    "model:setup": "bun scripts/setup-model.ts",
+    "model:check": "bun scripts/check-model.ts",
+    "test:neural": ".venv/bin/python -m unittest discover -s scripts -p \"test_neural*.py\""
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^7"
+  },
+  "license": "MIT"
+}
